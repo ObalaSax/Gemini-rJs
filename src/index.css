@@ -1,12 +1,42 @@
-/*#4845D2
-#A5B4FC
-#000000*/
-
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
+body {
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+}
+
+h1 {
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  width: 100vw;
+  display: flex;
+  height: 100vh;
+}
+
 .sidebar {
+  padding: 30px;
+  max-width: 500px;
+  height: 100vh;
+  border: 20px;
+  border-color: black;
+  background: aqua;
+
+  .logo-container {
+  }
+}
+
+.sidebar.active {
+  padding: 30px;
+  max-width: 50px;
+  height: 100vh;
+  border: 20px;
+  border-color: black;
+  background: red;
 }
